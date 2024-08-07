@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create NFT</title>
+    <link rel="stylesheet" href="/css/create.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create Your NFT</h1>
+        <form id="nftForm">
+            <label for="name">NFT Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="description">Description:</label>
+            <input type="text" id="description" name="description" required>
+
+            <label for="imageUrl">Image URL:</label>
+            <input type="text" id="imageUrl" name="imageUrl" required>
+
+            <label for="publickey">Public Key:</label>
+            <input type="text" id="publickey" name="publickey" required>
+
+            <label for="from">From:</label>
+            <input type="number" id="from" name="from" required>
+
+            <label for="to">To:</label>
+            <input type="number" id="to" name="to" required>
+
+            <button type="submit">Create NFT</button>
+            <button><a href="sale.html"></a></button>
+        </form>
+        <p id="message"></p>
+    </div>
+    <script src="demo.js"></script>
+</body>
+</html>

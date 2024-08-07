@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List NFT For Sale</title>
+    <link rel="stylesheet" href="/css/create.css">
+</head>
+<body>
+    <div class="container">
+        <h1>List NFT For Sale</h1>
+        <form id="nftSaleForm">
+            <label for="idNft">NFT ID:</label>
+            <input type="text" id="idNft" name="idNft" required>
+
+            <label for="naturalAmount">Natural Amount:</label>
+            <input type="number" id="naturalAmount" name="naturalAmount" step="0.01" required>
+
+            <button type="submit">List NFT for Sale</button>
+        </form>
+        <p id="message"></p>
+    </div>
+    <script src="sale.js"></script>
+</body>
+</html>
